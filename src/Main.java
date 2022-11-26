@@ -2,62 +2,55 @@ import java.io.PrintStream;
 
 public class Main {
     public static void main(String[] args) {
-        //Problem 1
-        System.out.println("Problem 1");
-        int yearOld = 15;
-        if (yearOld>=18){
-            System.out.println("поздравление пользователя с совершеннолетием !");
-        }
-        if(yearOld<=18) {
-            System.out.println(" возраст совершеннолетия ещё не наступил, и нужно немного подождать !");}
+        //Problem 2
+        System.out.println("Problem 2");
 
+        int Age = 3;
+        if (Age >= 2 && Age <= 6) {
+            System.out.println("Если возраст человека равен " + Age + "то ему нужно ходить в сад");
+        } else if (Age >= 7 && Age <= 18) {
+            System.out.println("Если возраст человека равен" + Age + "то ему нужно ходить в школу");
+        } else if (Age <= 18 && Age >= 24) {
+            System.out.println("Если возраст человека равен " + Age + "то ему нужно ходить в унтверитет ");
+        } else if (Age > 24) {
+            System.out.println("Есливозраст человека равен " + Age + "то ему нужно ходить на работу ");
 
-
-
-            //Problem 2
-            System.out.println("Problem 2");
-
-            if(yearOld>=7 && yearOld<18) {
-                System.out.println("ребенок ходит в школу");
-            }
-            if(yearOld>=18 &&yearOld<24){
-                System.out.println("может отправляться в университет");
-
-            }
-            if(yearOld >= 24){
-                System.out.println("ему пора искать первую работу");
-            }
-            //Problem
-        System.out.println("problem 3");
-            int wagonSize=102;
-            int seatsCount=60;//seating places
-            int standPlace=wagonSize-seatsCount;//standing places
-
-
-            int seatUsed=66;
-            int seatFree=22;
-            if(seatUsed<seatsCount){
-                System.out.println("There is  more "+ (seatsCount-seatUsed)+ "places to seat");
-
-            }
-            if (seatFree<standPlace){
-                System.out.println("If the standing seats are "+(standPlace-seatFree)+"stand"
-                );
-            }
-            if(wagonSize>102);{
-                System.out.println("Wagon is full ");
         }
 
-            if(seatsCount<=seatUsed){
-                System.out.println("Wagon Is Full!");
+        //Problem 3
+        System.out.println("Problem 3 ");
+        if (Age <= 5) {
+            System.out.println(" он не может кататься на аттракционе");
+        } else if (Age <=14) {
+            System.out.println(" он может кататься только в сопровождении взрослого");
 
+
+        } else if (Age>=14) {
+            System.out.println(" он может кататься без сопровождения взрослого");
+
+
+            //Problem 4
+            System.out.println("Problem 4");
+            int one=100;
+            int two=15;
+            int free=200;
+            if (one>two){
+                if(one<two) {
+                    System.out.println("Bigger number is" +free+"");
+                } else if (free>one) {
+                    System.out.println("Bigger number is "+free+"");
+
+
+
+                }
             }
-            if (wagonSize>(seatFree+seatUsed)){
-                System.out.println("No More spaces !");
             }
 
-            //problem 4
-        System.out.println("Problem 4");
+
+
+        }
+
+    }
 
 
 
@@ -65,4 +58,17 @@ public class Main {
 
 
 
-}}
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
