@@ -2,29 +2,29 @@ import java.io.PrintStream;
 
 public class Main {
     public static void main(String[] args) {
-        //Problem 1
-        System.out.println("Problem 1");
+        //Problem 2
+        System.out.println("Problem 2");
         int yearOld = 15;
         if (yearOld>=18){
             System.out.println("поздравление пользователя с совершеннолетием !");
-        }
+        }else{
         if(yearOld<=18) {
             System.out.println(" возраст совершеннолетия ещё не наступил, и нужно немного подождать !");}
 
 
 
 
-            //Problem 2
-            System.out.println("Problem 2");
+            //Problem 3
+            System.out.println("Problem 3");
 
             if(yearOld>=7 && yearOld<18) {
                 System.out.println("ребенок ходит в школу");
-            }
-            if(yearOld>=18 &&yearOld<24){
+            }else if (yearOld>=7 && yearOld<18){
+
                 System.out.println("может отправляться в университет");
 
             }
-            if(yearOld >= 24){
+            else if(yearOld >= 24){
                 System.out.println("ему пора искать первую работу");
             }
             //Problem
@@ -39,7 +39,7 @@ public class Main {
             if(seatUsed<seatsCount){
                 System.out.println("There is  more "+ (seatsCount-seatUsed)+ "places to seat");
 
-            }
+            }else {
             if (seatFree<standPlace){
                 System.out.println("If the standing seats are "+(standPlace-seatFree)+"stand"
                 );
@@ -56,8 +56,6 @@ public class Main {
                 System.out.println("No More spaces !");
             }
 
-            //problem 4
-        System.out.println("Problem 4");
 
 
 
@@ -65,4 +63,5 @@ public class Main {
 
 
 
-}}
+
+}}}}
